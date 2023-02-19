@@ -68,7 +68,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'Choose a license that will best suit your project.',
-        choices: [ 'GPL v3.0', 'Apache','MIT', 'None of the above'],
+        choices: [ 'GPL v3.0', 'Apache','MIT', 'other','None'],
         validate: your_License => {
             if (your_License){
                 return true;
